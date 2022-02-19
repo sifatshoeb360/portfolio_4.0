@@ -1,0 +1,238 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/* google font import */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+i {
+    color: #dd0d60 !important;
+}
+
+*:hover {
+    transition: 0.5s;
+}
+
+section {
+    padding: 0 7%
+}
+
+.fetureImg {
+    height: 28.125em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mainHeading {
+
+    font-size: 3.25em;
+
+    font-weight: bold;
+
+    color: #ff2178;
+}
+
+.subHeading {
+
+    font-size: 2.5em;
+
+    font-weight: 500;
+}
+
+textarea {
+    resize: none;
+}
+
+.mybtn {
+    text-decoration: none;
+    display: inline-block;
+    margin: 1.25em 0;
+    background: #ff2178;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0.625em 0.9375em;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 0.375em;
+}
+
+.mybtn:hover {
+    color: #fff;
+    background: #dd0d60;
+
+}
+
+/* nav bar start  */
+#mynavbar {
+    background: rgb(255 255 255);
+}
+.logo{
+    color: #dd0d60 !important;
+    font-family: 'Satisfy', cursive;
+    font-weight: 900;
+    transform: scale(1.5);
+}
+ul li a,#mynavbar ul li a{
+    color: #666;
+    font-size: 1.125em;
+    position: relative;
+}
+
+#mynavbar ul li a::before {
+    content: "";
+    height: 0.125em;
+    width: 0%;
+    background: #dd0d60;
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transition: 0.5s;
+
+}
+
+/* hove  */
+ul li a:hover{
+    color: #dd0d60 !important;
+}
+
+#mynavbar ul li a:hover::before {
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 3.125em;
+    width: auto;
+}
+
+.navbar-toggler {
+    color: #dd0d60;
+    outline: none;
+    border: none;
+}
+
+#mynavbar ul li .mybtn::before {
+    content: "";
+    width: 0;
+    height: 0%;
+}
+
+/* nav bar end */
+#hero {
+    background: url(./img/header-bg.png) no-repeat;
+    background-size: cover;
+}
+.myskill{
+    display: inline-block;
+    height: 2.125em;
+    overflow: hidden;
+}
+.myskill_text{
+    border-right: 0.125em solid #dd0d60 ;
+    padding-right: ;
+    color: #44021c;
+    display: inline-block;
+    font-size: 1.75em;
+    font-weight: 500;
+    letter-spacing: -0.125em;
+}
+/* about section :start */
+#bioGraphy {
+    background: url(./img/biography-bg.png) no-repeat;
+    background-size: cover;
+}
+.progress-bar{
+    background: #dd0d60;
+}
+/* about section end  */
+#leatestWork {
+    background: url(./img/latest-work-bg.png) no-repeat;
+    background-size: cover;
+}
+
+#leatestWork .img_box {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#leatestWork .img_box:hover img {
+    transform: scale(1.2);
+}
+#freelace{
+    background: #dd0d60;
+}
+/* testimonials section :start  */
+#testimonial .testi-items{
+    box-shadow:  0 .125rem .25rem rgba(221, 13, 96, 0.523) !important;
+}
+#testimonial {
+    background: url(./img/header-bg.png) no-repeat;
+    background-size: cover;
+}
+/* carousel-indicators btn  */
+.carousel-indicators .bg-danger{
+   background: #dd0d60 !important;
+   border: 0.3125em solid rgb(255, 255, 255);
+}
+
+#testimonial img {
+    border: #dd0d60 0.0625em solid;
+    background: #dd0d60;
+}
+/* contact start  */
+#contact {
+    background: url(./img/biography-bg.png) no-repeat;
+    background-size: cover;
+}
+/* footer */
+footer{
+    background: #000;
+}
+footer .social a{
+    color: #dd0d60;
+    font-size: 1.125em;
+}
+footer .social a i{
+    margin-right: 0.4em;
+}
+.nweslatter{
+    border-radius: 6px;
+    overflow: hidden;
+}
+footer input[type="text"] {
+    outline:none ;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #dd0d60;
+    text-transform: none;
+}
+footer input[type="submit"] {
+    border: none;
+    background:#dd0d60;
+    color:#fff;
+    font-size: 1.5em;
+}
+/* responsive style */
+@media (max-width: 768px) {
+    *{
+        font-size: 12px;
+    }
+    section {
+        padding: 0 3%
+    }
+    .logo{
+        transform: scale(1.2);
+    }
+}
+
