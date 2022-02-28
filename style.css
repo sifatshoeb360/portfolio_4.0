@@ -7,6 +7,20 @@
     text-transform: capitalize;
     font-size: 16px;
 }
+/* custom scrool bar start */
+html::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #ff217ac2;
+    border-radius: 5rem;
+}
+/* default css  */
 a{
     text-decoration: none;
 }
@@ -177,10 +191,11 @@ ul li a:hover{
     background-size: cover;
 }
 /* carousel-indicators btn  */
-.carousel-indicators .bg-danger{
+/* .carousel-indicators .bg-danger{
    background: #dd0d60 !important;
-   border: 0.3125em solid rgb(255, 255, 255);
-}
+    border: 0.3125em solid rgb(255, 255, 255); 
+  
+} */
 
 #testimonial img {
     border: #dd0d60 0.0625em solid;
@@ -190,6 +205,9 @@ ul li a:hover{
 #contact {
     background: url(./img/biography-bg.png) no-repeat;
     background-size: cover;
+}
+#contact input,#contact textarea{
+    color:#ff2178
 }
 /* footer */
 footer{
